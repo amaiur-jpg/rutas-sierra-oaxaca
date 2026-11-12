@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-brand: #2F5D50;
+  --color-accent: #B5532A;
+  --color-paper: #F3EEE1;
+  --color-forest: #1E2B26;
+  --color-ochre: #D9A441;
+}
+@theme inline {
+  --font-sans: var(--font-body, ui-sans-serif), system-ui, sans-serif;
+  --font-display: var(--font-heading, var(--font-body, ui-sans-serif)), serif;
+}
+.num { font-variant-numeric: tabular-nums; }
